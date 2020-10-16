@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="logout" layoutX="407.0" layoutY="30.0" mnemonicParsing="false" onAction="#logout" text="Logout" />
+      <VBox layoutX="60.0" layoutY="432.0" prefHeight="26.0" prefWidth="420.0">
+      <HBox layoutX="-4.0" layoutY="365.0" prefHeight="53.0" prefWidth="531.0">
+         <children>
+            <Button mnemonicParsing="false" text="play" />
+            <Button mnemonicParsing="false" text="pause" />
+            <Button mnemonicParsing="false" text="&lt;&lt;" />
+            <Button mnemonicParsing="false" text="stop" />
+            <Button mnemonicParsing="false" text="&gt;&gt;" />
+            <Button mnemonicParsing="false" text="equalizer" />
+            <Button mnemonicParsing="false" text="shuffle" />
+            <Button mnemonicParsing="false" text="repeat" />
+         </children>
+      </HBox>
+      </VBox>
+      <StackPane layoutX="150.0" layoutY="150.0" prefHeight="150.0" prefWidth="200.0">
+         <children>
+            <MediaView fitHeight="200.0" fitWidth="200.0" />
+         </children>
+      </StackPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
